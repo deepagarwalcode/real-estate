@@ -22,21 +22,21 @@ const OneProject = () => {
       },
     });
     timeline.from(picture1.current, {
-      duration: 0.8,
+      duration: 1.5,
       ease: "power4.outIn",
       // y: "40%",
       width: 0,
       stagger: 0.2,
     });
     timeline.from(picture2.current, {
-      duration: 0.8,
+      duration: 1.5,
       ease: "power4.outIn",
       // y: "40%",
       width: 0,
       stagger: 0.2,
     }, "<");
     timeline.from(line1Ref.current, {
-      duration: 0.5,
+      duration: 1,
       ease: "power4.in",
       y: "20%",
       stagger: 0.1,
