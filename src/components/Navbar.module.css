@@ -1,0 +1,44 @@
+.nav {
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3vh 7vw;
+  gap: 3vw;
+  border-bottom: 1px solid lightgray;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.nav_items {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: flex-end;
+  gap: 2vw;
+  font-family: Montserrat;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.nav_items p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.logo{
+    font-size: 1.3vw;
+    font-weight: 700;
+    font-family: "Clash Display";
+}
+
+.nav_contact{
+    background-color: #151515;
+    color: white;
+    padding: 1.5vh 2vh;
+    border-radius: 10vw;
+    cursor: pointer;
+}

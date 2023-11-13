@@ -1,0 +1,86 @@
+.one_project {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 100%;
+  padding: 0 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex: 1;
+  height: 60vh;
+  padding-right: 3vw;
+}
+
+.text p:nth-child(1) {
+  font-family: "Clash Display";
+  font-weight: 700;
+  font-size: 3vw;
+  margin-bottom: 2vh;
+}
+
+.text p:nth-child(2) {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.text p:nth-child(3) {
+  font-size: 0.9rem;
+  font-weight: 500;
+  justify-self: flex-end;
+  margin-top: auto;
+  display: flex;
+  align-items: center;  
+  gap: 1vw;
+}
+
+.construction_image{
+    height: 60vh;
+    flex: 2;
+    object-fit: cover;
+    filter: brightness(0.8);
+    margin-right: 2px;
+}
+
+.picture_w_details{
+    flex: 1;
+    height: 60vh;
+    position: relative; /* To allow absolute positioning for the text */
+    flex: 1;
+    display: inline-block; /* Adjust as needed */
+    transition: all 0.2s;
+}
+
+.picture_w_details img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+.picture_w_details p:nth-child(2) {
+    position: absolute;
+    bottom: 35px; /* Adjust the positioning as needed */
+    left: 10px; /* Adjust the positioning as needed */
+    color: white;
+    text-transform: uppercase;
+    font-family: "Clash Display";
+    font-weight: 600;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    width: 18vw !important;
+  }
+  
+  .picture_w_details p:nth-child(3) {
+    position: absolute;
+    bottom: 15px; /* Adjust the positioning as needed */
+    left: 10px; /* Adjust the positioning as needed */
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 5px 10px;
+  }

@@ -1,0 +1,100 @@
+.our_projects{
+    padding: 0 10vh;
+    /* padding-right: 0; */
+    /* width: 100%; */
+    padding-bottom: 10vw;
+    margin-top: 10vw;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+
+.head > p{
+    font-family: "Clash Display" !important;
+    font-weight: 700;
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+
+.results{
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+    gap: 2px;
+}
+
+.result{
+    position: relative; /* To allow absolute positioning for the text */
+    display: inline-block; /* Adjust as needed */
+    transition: all 0.2s;
+}
+
+.result img{
+    height: 50vh;
+    width: 20vw;
+    filter: brightness(0.8);
+    object-fit: cover;
+    transition: all 0.2s;
+}
+
+.result:hover img{
+    filter: brightness(1);
+    cursor: pointer;
+    width: 30vw;
+}
+
+
+
+.result p:nth-child(2) {
+    position: absolute;
+    bottom: 35px; /* Adjust the positioning as needed */
+    left: 10px; /* Adjust the positioning as needed */
+    color: white;
+    text-transform: uppercase;
+    font-family: "Clash Display";
+    font-weight: 600;
+    padding: 5px 10px;
+    font-size: 1rem;
+
+  }
+  
+  .result p:nth-child(3) {
+    position: absolute;
+    bottom: 15px; /* Adjust the positioning as needed */
+    left: 10px; /* Adjust the positioning as needed */
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 5px 10px;
+  }
+
+  .results::-webkit-scrollbar {
+    width: 1px !important;
+    display: none;
+    /* border-radius: 10vh; */
+  }
+  
+  /* Track */
+  .results::-webkit-scrollbar-track {
+    background: whitesmoke;
+    width: 1px !important;
+    border-radius: 10vh;
+  }
+  
+  /* Handle */
+  .results::-webkit-scrollbar-thumb {
+    background: black;
+    width: 1px !important;
+    border-radius: 10vh;
+  }
+  
+  /* Handle on hover */
+  .results::-webkit-scrollbar-thumb:hover {
+    background: black;
+    width: 1px !important;
+    border-radius: 10vh;
+  }

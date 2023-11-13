@@ -1,0 +1,59 @@
+.redirects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #f5f5f5; */
+  width: 100%;
+  padding: 0 10vh;
+  gap: 2px;
+  padding-bottom: 10vh;
+}
+
+.img_with_text {
+  position: relative; /* To allow absolute positioning for the text */
+  flex: 1;
+  display: inline-block; /* Adjust as needed */
+  transition: all 0.2s;
+}
+
+.img_with_text:hover {
+  flex: 2;
+  cursor: pointer;
+  filter: brightness(1);
+}
+
+.img_with_text:hover img{
+    filter: brightness(1);
+}
+
+.img_with_text p:nth-child(2) {
+  position: absolute;
+  bottom: 35px; /* Adjust the positioning as needed */
+  left: 10px; /* Adjust the positioning as needed */
+  color: white;
+  text-transform: uppercase;
+  font-family: "Clash Display";
+  font-weight: 600;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+}
+
+.img_with_text p:nth-child(3) {
+  position: absolute;
+  bottom: 15px; /* Adjust the positioning as needed */
+  left: 10px; /* Adjust the positioning as needed */
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+.img_with_text > img {
+  width: 100%;
+  object-fit: cover;
+  /* object-position: right; */
+  height: 40vh;
+  filter: brightness(0.8);
+  transition: all 0.2s;
+
+}

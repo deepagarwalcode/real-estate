@@ -1,0 +1,42 @@
+.opening{
+    margin-top: 4vh;
+    width: 100%;
+    /* background-color: gray; */
+    padding: 5vh 7vw;
+}
+
+.line1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5vw;
+}
+
+.o_picture{
+    height: 5.5vw;
+    object-fit: cover;
+    flex: 1;
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.o_header{
+    font-family: "Clash Display";
+    font-weight: 700 !important;
+    font-size: 5vw;
+    text-transform: uppercase;
+}
+
+.line2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5vw;
+}
+
+.o_desc{
+    font-weight: 500;
+    color: gray;
+    font-size: 0.7rem;
+    text-align: justify;
+}

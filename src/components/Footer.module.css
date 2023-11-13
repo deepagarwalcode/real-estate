@@ -1,0 +1,33 @@
+.footer {
+  width: 100%;
+  background-color: #151515;
+  padding: 5vh 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.footer p,
+.footer div {
+  flex: 1;
+}
+
+.footer p:nth-child(1) {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: lightgray;
+}
+
+.footer p:nth-child(2) {
+  text-align: center;
+  font-weight: 600;
+  font-family: "Clash Display";
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  justify-content: flex-end;
+}
