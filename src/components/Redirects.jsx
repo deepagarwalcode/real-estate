@@ -11,7 +11,7 @@ const Redirects = () => {
       // y: "40%",
       width: 0,
       stagger: 0.2
-    }, "+=0");
+    }, "+=0.6");
 
   };
 

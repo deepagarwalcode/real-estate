@@ -9,20 +9,20 @@ const Opening = () => {
   const line2Ref = useRef(null);
   const animation = () => {
     gsap.from(line1Ref.current.children, {
-      duration: 0.5,
+      duration: 0.8,
       ease: "power4.in",
-      y: "20%",
+      // y: "20%",
       stagger: 0.1,
       opacity: 0,
     });
     gsap.from(line2Ref.current.children, {
-      duration: 0.5,
+      duration: 0.8,
       ease: "power4.in",
-      y: "20%",
+      // y: "20%",
       stagger: 0.1,
       opacity: 0,
       delay: 1,
-    }, "-=1.2");
+    }, "-=1.4");
   };
 
   useEffect(() => {
