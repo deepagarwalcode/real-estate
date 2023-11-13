@@ -9,8 +9,19 @@ import OurProjects from "@/components/OurProjects";
 import OneProject from "@/components/OneProject";
 import JoinUs from "@/components/JoinUs";
 import Footer from "@/components/Footer";
+import { useEffect } from "react";
 
 export default function Home() {
+
+  const callLMS = async () => {
+    const LocomotiveScroll = (await import("locomotive-scroll")).default;
+    const locomotiveScroll = new LocomotiveScroll();
+  };
+
+
+  useEffect(() => {
+    callLMS();
+  }, []);
   return (
     <main className={styles.main}>
       <Navbar />
